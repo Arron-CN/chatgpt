@@ -104,9 +104,6 @@ export function ChatPanel(props: Props) {
       footer={
         <div className="w-full flex flex-row items-center justify-between">
           <div className="flex flex-row items-center">
-            <Link href="https://github.com/liuw5367/chatgpt-web" isExternal>
-              <IconButton aria-label="Github" variant="ghost" icon={<IconBrandGithub stroke={1.5} />} />
-            </Link>
             <Button
               aria-label="ChangeLanguage"
               variant="ghost"
