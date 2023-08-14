@@ -39,7 +39,7 @@ export async function loadCache(newChatName: string) {
     openAIKey: localStorage.getItem('openAIKey') || undefined,
     openAIHost: localStorage.getItem('openAIHost') || undefined,
     openAIModel: localStorage.getItem('openAIModel') || undefined,
-    temperature: localStorage.getItem('temperature') ?? '0.6',
+    temperature: localStorage.getItem('temperature') ?? '1',
     top_p: localStorage.getItem('top_p') ?? '1',
     searchSuggestions: localStorage.getItem('searchSuggestions') ?? '1',
     enterSend: localStorage.getItem('enterSend') ?? '',
